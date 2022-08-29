@@ -11,6 +11,8 @@ if bmi_as_int < 18.5:
   print("underweight")
 elif bmi_as_int <= 25:
   print("normal weight")
+elif bmi_as_int <= 30:
+  print("overweight")
 elif bmi_as_int <= 35:
   print("obese")
 else:
